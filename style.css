@@ -7,7 +7,9 @@
 .main {
   background: url(./images/desktop-background.svg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 70vh;
 }
 
 .connect {
